@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Headphone hopping</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="main">
+      <header>
+        <!-- navbar -->
+        <div class="nav container">
+          <!-- logo -->
+          <a href="#" class="logo">
+            <img src="./assets/pppp.png" alt="" />
+          </a>
+          <!-- menu icon -->
+          <i class="ri-menu-line" id="menu-icon"></i>
+          <!-- nav list -->
+          <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#specs">Specs</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#buds">Buds</a></li>
+            <li><a href="#buds">Connect</a></li>
+          </ul>
+        </div>
+      </header>
+      <!-- home -->
+      <section class="home" id="home">
+        <!-- home content -->
+        <div class="home-content container">
+          <div class="home-img">
+            <img src="assets/img1.jpg" alt="" />
+          </div>
+          <!-- home text -->
+          <div class="home-text">
+            <h1>Beats Solo 3</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quo
+              asperiores in amet officia provident est, ad voluptatum doloribus
+              ipsum?
+            </p>
+            <a href="#" class="btn">
+              <i class="ri-shopping-bag-fill" id="bx"></i>
+              <span class="span">Add To Bag</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- specs -->
+      <section class="specs" id="specs">
+        <h1 class="heading">Specs</h1>
+        <!-- specs content -->
+        <div class="specs-container container">
+          <div class="specs-details">
+            <div class="box">
+              <i class="ri-battery-charge-fill bx"></i>
+              <h3>Upto 10 hours of listening</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aliquid sed dolor debitis molestias porro commodi ad.
+              </p>
+            </div>
+            <div class="box">
+              <i class="ri-headphone-fill bx"></i>
+              <h3>Block Externak Noise</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate esse sint quos eveniet, beatae suscipit.
+              </p>
+            </div>
+          </div>
+          <div class="specs-img">
+            <img src="./assets/foldable.webp" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- shop -->
+      <section class="shop" id="shop">
+        <!-- heading -->
+        <h2 class="heading">Shop Now</h2>
+        <!-- shop content -->
+        <div class="shop-container container">
+          <div class="box">
+            <!-- box 1 -->
+            <img src="./assets/shop2.jpg" alt="" />
+            <h3>Beats Boom</h3>
+            <span>$459</span>
+            <i class="ri-shopping-bag-fill bx"></i>
+          </div>
+          <div class="box">
+            <!-- box 1 -->
+            <img src="./assets/shop1.webp" alt="" />
+            <h3>Beats Boom</h3>
+            <span>$459</span>
+            <i class="ri-shopping-bag-fill bx"></i>
+          </div>
+          <div class="box">
+            <!-- box 1 -->
+            <img src="./assets/shop6.jpg" alt="" />
+            <h3>Beats Boom</h3>
+            <span>$459</span>
+            <i class="ri-shopping-bag-fill bx"></i>
+          </div>
+
+          <div class="box">
+            <!-- box 1 -->
+            <img src="./assets/shop3.jpg" alt="" />
+            <h3>Beats Boom</h3>
+            <span>$459</span>
+            <i class="ri-shopping-bag-fill bx"></i>
+          </div>
+          <div class="box">
+            <!-- box 1 -->
+            <img src="./assets/shop6.jpg" alt="" />
+            <h3>Beats Boom</h3>
+            <span>$459</span>
+            <i class="ri-shopping-bag-fill bx"></i>
+          </div>
+          <div class="box">
+            <img src="./assets/shop7.webp" alt="" />
+            <h3>Beats Boom</h3>
+            <span>$459</span>
+            <i class="ri-shopping-bag-fill bx"></i>
+          </div>
+        </div>
+      </section>
+      <!-- buds -->
+      <section class="buds" id="buds">
+        <div class="buds-container container">
+          <div class="buds-text">
+            <h2>Beats Studio Buds</h2>
+            <span>$135.9</span>
+            <p>one-touch pairing for apple and andorid</p>
+            <a href="#" class="btn">
+              <i class="ri-shopping-bag-fill bx"></i>
+              <span>Add To Bag</span>
+            </a>
+          </div>
+
+          <!-- buds image -->
+          <div class="buds-img">
+            <img src="./assets/budd.png" alt="" />
+          </div>
+        </div>
+      </section>
+       <!-- connect us -->
+       <div class="con">
+        <h2 class="connect">Connect with us</h2>
+        <form id="form">
+         <div class="field">
+           <label for="from_name">Your name &nbsp;</label>
+           <input type="text" name="from_name" id="from_name">
+         </div>
+         <div class="field">
+           <label for="email_id">Email Id  &nbsp; &nbsp; &nbsp; &nbsp;</label>
+           <input type="text" name="email_id" id="email_id">
+         </div>
+         <div class="field">
+           <label for="message">Message &nbsp; &nbsp; &nbsp;</label>
+           <input type="text" name="message" id="message">
+         </div>
+       
+         <input type="submit" id="button" class="send" value="Send Email" >
+       </form>
+       </div>
+      
+
+      <!-- footer -->
+      <section class="footer container">
+        <a href="#" class="logo">
+          <img src="./assets/pppp.png" alt="" />
+        </a>
+        <div class="footer-box">
+          <h2>Products</h2>
+          <a href="#">Headphones</a>
+          <a href="#">Earbuds</a>
+          <a href="#">Eaphones</a>
+          <a href="#">Case</a>
+        </div>
+        <div class="footer-box">
+          <h2>Payments</h2>
+          <a href="#">Return Policy</a>
+          <a href="#">Refunds Policy</a>
+          <a href="#">Support</a>
+          <a href="#">Terms Of Use</a>
+        </div>
+        <div class="footer-box">
+          <h2>Social</h2>
+          <div class="social">
+            <a href="#"> <i class="ri-instagram-fill bx"></i> </a>
+            <a href="#"> <i class="ri-facebook-fill bx"></i> </a>
+            <a href="#"> <i class="ri-twitter-fill bx"></i> </a>
+          </div>
+        </div>
+      </section>
+     
+      <!-- copyright -->
+      <div class="copyright">
+        <p>&#169;HeadphoneHopping  All  Right  Reserved.</p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('sCekS4CnRoDzv-6n7')
+</script>
+  </body>
+</html>
